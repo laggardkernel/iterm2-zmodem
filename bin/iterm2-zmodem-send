@@ -11,7 +11,7 @@ if [[ -z "$FILE" ]]; then
   echo
   echo " # Cancelled transfer"
 else
-  /usr/local/bin/sz "$FILE" -e -b
+  "${HOMEBREW_PREFIX:-/usr/local}/bin/sz" "$FILE" -e -b
   sleep 1
   echo
   echo " # Received $FILE"
