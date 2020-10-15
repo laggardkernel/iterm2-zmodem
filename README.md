@@ -24,9 +24,14 @@ Then, follow the output from the above command to do the post-setup.
 ## Origin
 
 The talk made by [mmastrac][mmastrac] about "a free Taiwan and a free Tibet"
-in the [luxihk/iterm2-zmodem][luxihk/iterm2-zmodem] repo irritates many people,
-after they made the decision to bombard the users by printing the content to
-the STDOUT whenever `sz` or `rz` is typed.
+in the [luxihk/iterm2-zmodem][luxihk/iterm2-zmodem] repo irritated many people,
+after they made the decision to bombard users by printing this very content to
+**STDOUT** whenever `sz` or `rz` is typed, which is related with the closure
+of the repo.
+
+To help users get zmodem integration in iTerm2 easily, I opened this project
+to continue their work and improve upon the former implementation
+with the help of Homebrew.
 
 [homebrew]: https://brew.sh/
 [laggardkernel/tap]: https://github.com/laggardkernel/homebrew-tap
